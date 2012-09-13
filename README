@@ -1,0 +1,10 @@
+I originally found this project through http://rcarduino.blogspot.com/2012/08/the-must-build-arduino-project-illutron.html and 
+thought the Illutron B looked really cool. I built up the hardware but found the software was only available through
+Illutron/ArduinoSynth which just ran the synth in a loop and didn't include potentiometer inputs. I emailed PMed DuaneB 
+through the Arduino forum and I'm waiting for the code. In the meantime I was going to play around with my fork and see what
+I could add.
+
+When I loaded this code into my Arduino I found that the 2nd line in synthOriginal.ino, #include "the_synth.h", was not 
+being found. I added an absolute path and that fixed that up. Other than that I didn't need to modify the code in any way.
+
+This is a really cool project. Thank you to Illutron and DuaneB for sharing this information!
